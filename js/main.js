@@ -278,7 +278,6 @@ function getAndDownloadSubscribtionList() {
 		data.forEach(element => {
 			subscribtionList.push(element.val())
 		});
-		return subscribtionList;
 		JSONToCSVConvertor(subscribtionList, 'subscribers', true);
 	});
 }
